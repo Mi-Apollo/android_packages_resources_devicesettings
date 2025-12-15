@@ -205,16 +205,16 @@
     <string name="notification_slider_mode_vibrate">Vibrate</string>
     <string name="notification_slider_mode_none">Normal</string>
 
-    <!-- Thermal profiles -->
-    <string name="thermal_title">Optimization profiles</string>
-    <string name="thermal_summary">Adjust per-app profiles for optimum performance</string>
-    <string name="thermal_default">No optimization</string>
-    <string name="thermal_benchmark">Performance</string>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
     <string name="thermal_browser">Browser</string>
     <string name="thermal_camera">Camera</string>
     <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Games</string>
-    <string name="thermal_streaming">Streaming applications</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
 
     <!-- Raise to wake strings-->
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
@@ -280,16 +280,22 @@
     <string name="doze_brightness_high">High brightness</string>
     <string name="doze_brightness_adaptive">Adaptive brightness</string>
 
-    <!-- Refresh Rate per-app -->
-    <string name="refresh_title">Refresh rate per-app</string>
-    <string name="refresh_summary">Set a specific refresh rate for each application</string>
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Per-app refresh rate</string>
+    <string name="refresh_summary">Set the maximum refresh rate for a specific application</string>
     <string name="refresh_default">Default</string>
     <string name="refresh_low">Low (30Hz)</string>
-    <string name="refresh_medium">Medium (60Hz)</string>
-    <string name="refresh_high">High (90Hz)</string>
-    <string name="refresh_extreme">Extreme (120Hz)</string>
+    <string name="refresh_standard">Standard (60Hz)</string>
+    <string name="refresh_medium">Medium (90Hz)</string>
+    <string name="refresh_high">High (120Hz)</string>
+    <string name="refresh_extreme">Extreme (144Hz)</string>
 
     <!-- Powershare -->
     <string name="powershare_enable_title">Battery Share</string>
     <string name="powershare_enable_summary">Charge other devices by placing them on the back of your phone</string>
+
+    <!-- High Touch Polling -->
+    <string name="htsr_title">Touch Responsiveness</string>
+    <string name="htsr_enable_title">Increase Touch Responsiveness</string>
+    <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
 </resources>
